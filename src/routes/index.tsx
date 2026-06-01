@@ -153,7 +153,7 @@ function FloatingComposition() {
 
 function Hero() {
   return (
-    <section id="top" className="pt-24 pb-12 sm:pt-20 sm:pb-20">
+   <section id="top" className="pt-24 pb-16 sm:pt-28 sm:pb-16">
       <div className="mx-auto max-w-6xl px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div>
           <span className="inline-flex items-center gap-2 text-xs px-4 py-1.5 rounded-full border border-hairline text-foreground/80">
@@ -411,11 +411,11 @@ function Index() {
       <Header />
       <main>
         <Hero />
-        <About />
+{/* <About /> */}
         <section id="work" className="py-12 sm:py-20">
           <div className="mx-auto max-w-6xl px-6">
             <p className="text-[11px] uppercase tracking-[0.2em] text-accent-blue">Work</p>
-            <h2 className="mt-3 text-3xl sm:text-4xl font-semibold tracking-tight">Pages I&apos;ve led.</h2>
+           <h2 className="mt-6 text-3xl sm:text-4xl font-semibold tracking-tight">Pages I&apos;ve led.</h2>
 
             <WorkSection
               sectionId="kk-create"

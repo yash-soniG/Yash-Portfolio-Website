@@ -116,7 +116,7 @@ export function WorkSection({
 
   return (
     <div id={sectionId}>
-      <div ref={headerRef} className="flex items-center gap-4">
+      <div ref={headerRef} className="flex items-center gap-4 mt-8">
         <img
           src={logo}
           alt={`${title} logo`}
