@@ -11,7 +11,7 @@ import {
   skills, testimonials, milestones,
 } from "@/components/portfolio/data";
 
-const RESUME_URL = "https://drive.google.com/file/d/1YBPJxL8aiA1BjAFzCkaomI34XfvPFHg6/view";
+const RESUME_URL = "https://drive.google.com/file/d/1buHDC3ZoaXvupAcFtA5GaWOPieP6rEYK/view?usp=sharing";
 const EMAIL = "yashsoni98136@gmail.com";
 const MAILTO = `mailto:${EMAIL}`;
 const LINKEDIN_URL = "https://www.linkedin.com/in/yashsonig";
