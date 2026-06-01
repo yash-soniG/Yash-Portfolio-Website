@@ -395,7 +395,7 @@ function Footer() {
   return (
     <footer className="border-t border-hairline">
       <div className="mx-auto max-w-6xl px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-xs text-muted-foreground">© 2025 Yash Soni. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">© 2026 Yash Soni. All rights reserved.</p>
         <div className="flex items-center gap-2">
           <a href={MAILTO} aria-label="Email" target="_blank" rel="noreferrer" className="p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-white/5 transition-colors"><Mail size={16} /></a>
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-white/5 transition-colors"><Linkedin size={16} /></a>
@@ -421,7 +421,7 @@ function Index() {
               sectionId="kk-create"
               logo={kkLogo}
               title="KK Create"
-              subtitle="Instagram Lead & Content Strategist"
+              subtitle="Short-form Lead & Content Strategist"
               description="Wrote 200+ scripts and led the page end-to-end: ideation, scripting, editor coordination, and performance tracking. Scaled from 350K to 1.6M followers and built the YouTube channel to 750K subscribers."
               categories={kkCategories}
               youtubeCategories={kkYoutubeCategories}
